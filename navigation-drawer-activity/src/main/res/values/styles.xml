@@ -1,0 +1,20 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!--設定 Hambuger icon 的 style-->
+		<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<!--設定 Hambuger icon 的 style-->
+	<style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+		<!--改為白色-->
+		<item name="color">@android:color/white</item>
+	</style>
+
+</resources>
