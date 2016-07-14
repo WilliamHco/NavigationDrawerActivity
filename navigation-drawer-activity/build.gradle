@@ -33,7 +33,6 @@ group = 'com.cacaorick'
 version = '1.0.0'
 def siteUrl = 'https://github.com/CacaoRick/NavigationDrawerActivity'
 def gitUrl = 'https://github.com/CacaoRick/NavigationDrawerActivity.git'
-def desc = 'Easy to use same NavigationDrawer, ToolBar and FloatingActionButton in Activity.'
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 def bontrayUser = properties.getProperty("bintray.user")
@@ -46,8 +45,8 @@ bintray {
 	configurations = ['archives']
 	pkg {
 		repo = 'maven'
-		name = 'toolbar-activity'
-		desc = desc
+		name = 'navigation-drawer-activity'
+		desc = 'Easy to use same NavigationDrawer, ToolBar and FloatingActionButton in Activity.'
 		websiteUrl = siteUrl
 		issueTrackerUrl = 'https://github.com/CacaoRick/NavigationDrawerActivity/issues'
 		vcsUrl = gitUrl
@@ -64,7 +63,7 @@ install {
 				packaging 'aar'
 
 				// Add your description here
-				name desc
+				name 'Easy to use same NavigationDrawer, ToolBar and FloatingActionButton in Activity.'
 				url siteUrl
 
 				// Set your license
