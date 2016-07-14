@@ -1,4 +1,7 @@
 # NavigationDrawerActivity
+
+[ ![Download](https://api.bintray.com/packages/cacaorick/maven/navigation-drawer-activity/images/download.svg) ](https://bintray.com/cacaorick/maven/navigation-drawer-activity/_latestVersion)
+
 方便讓各個 Activity 使用相同的 Navigation Drawer、ToolBar 和 FloatingActionButton
 
 ## 使用說明
